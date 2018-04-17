@@ -22,7 +22,7 @@
                     document.getElementById("alg").innerHTML += j.toString();
                     document.getElementById("alg").innerHTML += "</th>";
                 }
-                document.getElementById("alg").innerHTML += "</tr>";
+                document.getElementById("alg").innerHTML += "</tr></br>";
                 for(var i = 0; i < cols.value; i++){
                     document.getElementById("alg").innerHTML += "<tr><td>Споживач ";
                     document.getElementById("alg").innerHTML += i.toString();
@@ -30,7 +30,7 @@
                     for(var j = 0; j < rows.value; j++) {
                         document.getElementById("alg").innerHTML += '<td><input class=\"lab\" name="data"/></td>';
                     }
-                    document.getElementById("alg").innerHTML += "</tr>";
+                    document.getElementById("alg").innerHTML += "</tr></br>";
                 }
                 document.getElementById("alg").innerHTML += "<tbody></table><p><input type=\"submit\" formmethod=\'post\' value=\"Отримати результат\" class=\"inpIndex\" /> <input type=\"reset\" value=\"Очистити поля\" class=\"inpIndex\" /></p><br/>"
             }

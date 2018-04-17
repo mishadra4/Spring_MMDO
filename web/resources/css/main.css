@@ -8,7 +8,7 @@ input.data{
 }
 
 input.lab {
-    width: 30px;
+    width: 95px;
     text-align: right;
     target-name: "data";
 }
